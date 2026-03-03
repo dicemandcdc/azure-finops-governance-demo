@@ -19,11 +19,13 @@ in a real Azure environment.
 
 ## Governance Chain
 
+~~~
 → Budget threshold breached
   → ag-finops-alerts (Action Group)
     → webhook-budget-hardstop
       → Stop-VMFinopsDemo.ps1 runbook
         → VM deallocated
+~~~
 
 ## Contents
 
